@@ -1,0 +1,1 @@
+export const ProfDetails = ['code', 'create', 'build', 'solve']
