@@ -64,6 +64,7 @@
             flex-direction: column;
             width: 100vw;
             /* height: 500px; */
+            z-index: -1;
             position: absolute;
             top: 80px;
             left: -100%;
@@ -71,12 +72,13 @@
             transition: all 0.5s ease-in;
         }
         .nav-menu-active {
+            /* height: 500px; */
             background: #874cf5;
             cursor: pointer;
             left: 0;
             opacity: 1;
             z-index: 1;
-            transition: all 0.5s ease;
+            transition: all .5s ease-in;
             left: 0%;
             position: absolute;
             top: 8vh;
@@ -86,7 +88,18 @@
             padding: 2rem;
             width: 100vw;
             display: table;
+            /* animation: drop 3s ease-in-out; */
         }
+        /* @keyframes drop {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0px);
+            }
+        } */
         .nav-links:hover {
             background-color: #b599f6;
             border-radius: 0;
