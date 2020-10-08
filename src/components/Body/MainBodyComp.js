@@ -11,7 +11,7 @@ export class MainBodyComp extends Component {
             console.log(component.imgUrl);
 
             return (
-              <div key={index} style={bodyStyle} className='bodyStyle'>
+              <div key={index} style={bodyStyle} className="bodyStyle">
                 <img src={component.imgUrl} alt="" />
                 <li>
                   <a href={component.linkUrl}> {component.title} </a>{" "}
@@ -24,8 +24,6 @@ export class MainBodyComp extends Component {
     );
   }
 }
-const bodyStyle={
-  
-}
+const bodyStyle = {};
 
 export default MainBodyComp;
