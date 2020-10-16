@@ -2,22 +2,22 @@
 
 export const BodyComp = [{
         title: "HTML",
-        imgUrl: "../images/html.png",
+        imgUrl: "./html.png",
         linkUrl: "#",
     },
     {
         title: "CSS",
-        imgUrl: "#",
+        imgUrl: "./css.jpg",
         linkUrl: "#",
     },
     {
         title: "Javascript",
-        imgUrl: "#",
+        imgUrl: "./javascript.png",
         linkUrl: "#",
     },
     {
         title: "React",
-        imgUrl: "#",
+        imgUrl: "./logo192.png",
         linkUrl: "#",
     },
 ];
